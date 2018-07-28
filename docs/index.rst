@@ -11,7 +11,7 @@ This package provides logging suites for PHP integrated with `Coralogix` logs an
 |
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :caption: Table of Contents
     :name: mastertoc
 
