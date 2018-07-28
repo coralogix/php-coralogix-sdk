@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <title>Coralogix PHP SDK></title>
+    <parser>
+        <encoding>utf8</encoding>
+        <target>./docs/api</target>
+        <extensions>
+            <extension>php</extension>
+        </extensions>
+        <visibility></visibility>
+    </parser>
+    <transformer>
+        <target>./docs/api</target>
+    </transformer>
+    <transformations>
+        <template name="responsive"/>
+    </transformations>
+    <files>
+        <directory>./src</directory>
+        <ignore>tests/*</ignore>
+        <ignore>vendor/*</ignore>
+        <ignore>docs/*</ignore>
+    </files>
+</phpdoc>

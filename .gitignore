@@ -1,0 +1,7 @@
+.git/
+.idea/
+*.iml
+vendor/
+clover.xml
+reports/
+composer.lock
