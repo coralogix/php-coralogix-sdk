@@ -29,12 +29,6 @@
     "source": "https://github.com/coralogix/php-coralogix-sdk",
     "docs": "https://php-coralogix-sdk.readthedocs.io/en/latest/"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/coralogix/php-coralogix-sdk"
-    }
-  ],
   "require": {
     "php": "7.*"
   },

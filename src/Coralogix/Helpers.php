@@ -44,7 +44,7 @@ final class Helpers
     public static function get_package_version(): string
     {
         $package_data =self::get_package_info();
-        return (isset($package_data["version"]) ? $package_data["version"] : "1.0.0");
+        return (array_key_exists("version", $package_data) ? $package_data["version"] : "1.0.0");
     }
 
     /**
