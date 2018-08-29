@@ -10,7 +10,7 @@ Example of usage:
     <?php
 
     use Monolog\Logger;
-    use Coralogix\Handler\CoralogixMonologHandler;
+    use Coralogix\Handlers\CoralogixMonologHandler;
 
 
     $logger = new Logger("coralogix_logger");
