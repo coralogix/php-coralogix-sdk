@@ -25,7 +25,7 @@ For using with `Yii2` you should install `yii2-monolog <https://github.com/meror
                             new Coralogix\Handlers\CoralogixMonologHandler(
                                 "[YOUR_PRIVATE_KEY_HERE]",
                                 "[YOUR_APPLICATION_NAME]",
-                                "[YOUR_SUBSYTEM_NAME]"
+                                "[YOUR_SUBSYSTEM_NAME]"
                             )
                         ],
                         'processor' => [],

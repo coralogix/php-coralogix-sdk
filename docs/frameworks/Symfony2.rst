@@ -21,4 +21,4 @@ For using our logger with `Symfony` you should to edit your default **monolog.ya
             arguments:
                 private_key: [YOUR_PRIVATE_KEY_HERE]
                 app_name: [YOUR_APPLICATION_NAME]
-                subsystem: [YOUR_SUBSYTEM_NAME]
+                subsystem: [YOUR_SUBSYSTEM_NAME]

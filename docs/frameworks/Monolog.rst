@@ -18,7 +18,7 @@ Example of usage:
         new CoralogixMonologHandler(
             "[YOUR_PRIVATE_KEY_HERE]",
             "[YOUR_APPLICATION_NAME]",
-            "[YOUR_SUBSYTEM_NAME]"
+            "[YOUR_SUBSYSTEM_NAME]"
         )
     );
     $logger->info("Hello from Monolog logging library");

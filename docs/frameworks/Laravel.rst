@@ -26,10 +26,10 @@ For using our logger with `Laravel` you should to edit your **config/logging.php
             'handler_with' => [
                 'private_key' => '[YOUR_PRIVATE_KEY_HERE]',
                 'app_name' => '[YOUR_APPLICATION_NAME]',
-                'subsystem' => '[YOUR_SUBSYTEM_NAME]'
+                'subsystem' => '[YOUR_SUBSYSTEM_NAME]'
             ],
         ],
-    ]
+    ];
 
 And then you can send log messages with:
 
