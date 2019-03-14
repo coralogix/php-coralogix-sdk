@@ -15,4 +15,4 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/coralogix/php-coralogix-sdk.svg)](https://github.com/coralogix/php-coralogix-sdk/graphs/contributors)
 
 This package provides logging suites integrated with `Coralogix` logs analytics platform.
-For watch how to use it, please, read [Coralogix Python PHP Docs](https://php-coralogix-sdk.readthedocs.io/en/latest/).
+For watch how to use it, please, read [Coralogix PHP Docs](https://php-coralogix-sdk.readthedocs.io/en/latest/).
