@@ -30,7 +30,8 @@
     "docs": "https://php-coralogix-sdk.readthedocs.io/en/latest/"
   },
   "require": {
-    "php": "7.*"
+    "php": "7.*",
+    "ext-pthreads": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "6.*",
