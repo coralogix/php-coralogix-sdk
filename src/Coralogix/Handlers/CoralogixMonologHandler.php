@@ -82,7 +82,7 @@ final class CoralogixMonologHandler extends AbstractProcessingHandler
      * @param array $record log record
      * @access protected
      */
-    protected function write(array $record)
+    protected function write(array $record): void
     {
         $this->logger_manager->add_logline(
             $record["message"],
