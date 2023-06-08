@@ -12,7 +12,7 @@ class LoggerManagerTest extends \PHPUnit\Framework\TestCase
 {
     private static $logger_manager;
 
-    public static function setUpBeforeClass()
+    public static function setUpBeforeClass(): void
     {
         self::$logger_manager = new LoggerManager(
             array(

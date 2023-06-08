@@ -11,7 +11,7 @@ class CoralogixLoggerTest extends \PHPUnit\Framework\TestCase
 {
     private static $logger;
 
-    public static function setUpBeforeClass()
+    public static function setUpBeforeClass(): void
     {
         self::$logger = new CoralogixLogger(
             getenv("PRIVATE_KEY"),

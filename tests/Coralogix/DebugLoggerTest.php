@@ -8,7 +8,7 @@ use Coralogix\DebugLogger;
 
 class DebugLoggerTest extends \PHPUnit\Framework\TestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         DebugLogger::$debug_mode = true;
     }
