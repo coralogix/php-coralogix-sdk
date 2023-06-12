@@ -5,4 +5,3 @@ vendor/
 clover.xml
 reports/
 composer.lock
-Dockerfile
