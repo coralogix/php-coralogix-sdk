@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<phpunit bootstrap="tests/bootstrap.php"
-         colors="true"
-         convertErrorsToExceptions="true"
-         convertNoticesToExceptions="true"
-         convertWarningsToExceptions="true"
-         stopOnFailure="true">
-    <testsuites>
-        <testsuite name="Coralogix Unit Tests Suit">
-            <directory>tests/Coralogix/</directory>
-        </testsuite>
-    </testsuites>
-    <filter>
-        <whitelist addUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">src/Coralogix/</directory>
-        </whitelist>
-    </filter>
-    <logging>
-        <log type="coverage-clover" target="clover.xml"/>
-        <log type="coverage-html" target="./reports"/>
-        <log type="coverage-text" target="php://stdout" showUncoveredFiles="false" showOnlySummary="false"/>
-    </logging>
-    <php>
-        <ini name="date.timezone" value="UTC"/>
-    </php>
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" bootstrap="tests/bootstrap.php" colors="true" stopOnFailure="true" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.2/phpunit.xsd" cacheDirectory=".phpunit.cache">
+  <coverage includeUncoveredFiles="true">
+    <report>
+      <clover outputFile="clover.xml"/>
+      <html outputDirectory="./reports"/>
+      <text outputFile="php://stdout" showUncoveredFiles="false" showOnlySummary="false"/>
+    </report>
+  </coverage>
+  <testsuites>
+    <testsuite name="Coralogix Unit Tests Suit">
+      <directory>tests/Coralogix/</directory>
+    </testsuite>
+  </testsuites>
+  <logging/>
+  <php>
+    <ini name="date.timezone" value="UTC"/>
+  </php>
+  <source>
+    <include>
+      <directory suffix=".php">src/Coralogix/</directory>
+    </include>
+  </source>
 </phpunit>

@@ -2,19 +2,14 @@ dist: trusty
 sudo: required
 language: php
 php:
-  - 7.2
+  - 8.2
 
 install: composer install
 
 before_script:
-  - git clone https://github.com/krakjoe/pthreads.git
-  - cd pthreads
-  - phpize
-  - ./configure
-  - make
-  - make install
-  - echo "extension=pthreads.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
-  - cd ..
+  - pecl install parallel
+	- docker-php-ext-enable parallel
+	- EXTENSION_DIR=`php-config --extension-dir 2>/dev/null`
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
