@@ -5,3 +5,4 @@ vendor/
 clover.xml
 reports/
 composer.lock
+.DS_Store
