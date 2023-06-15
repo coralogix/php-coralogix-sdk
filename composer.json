@@ -13,13 +13,19 @@
   "license": "Apache-2.0",
   "homepage": "https://coralogix.com/",
   "readme": "./README.md",
-  "time": "2020-09-07",
-  "version": "1.0.1",
+  "time": "2023-06-14",
+  "version": "2.0.0",
   "authors": [
     {
       "name": "Eldar Aliiev",
       "email": "eldar@coralogix.com",
       "homepage": "https://github.com/EldarAliiev",
+      "role": "Developer"
+    },
+    {
+      "name": "Ryan Tan",
+      "email": "ryan.tan@coralogix.com",
+      "homepage": "https://github.com/natnayr",
       "role": "Developer"
     }
   ],

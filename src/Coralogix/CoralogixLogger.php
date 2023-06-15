@@ -55,6 +55,7 @@ final class CoralogixLogger
      */
     public function __construct(string $private_key = NULL, string $app_name = NULL, string $subsystem = NULL, string $category = NULL, bool $sync_time = false)
     {
+
         // Validate private key
         $private_key = ($private_key && !ctype_space($private_key)) ? $private_key : Constants::FAILED_PRIVATE_KEY;
 
@@ -79,7 +80,7 @@ final class CoralogixLogger
 
         // Start logger manager thread
         if ($this->logger_manager->configured) {
-            $this->logger_manager->start();
+            $this->logger_manager->start(); //TODO: pthreads start
         }
     }
 
@@ -112,7 +113,7 @@ final class CoralogixLogger
         $category = $category ? $category : $this->category;
 
         // Validate thread ID
-        $thread_id = ($thread_id && !ctype_space($thread_id)) ? $thread_id : \Thread::getCurrentThreadId();
+        $thread_id = ($thread_id && !ctype_space($thread_id)) ? $thread_id : \Thread::getCurrentThreadId(); //TODO: remove pthreads
 
         // Add log record to logs manager
         $this->logger_manager->add_logline(

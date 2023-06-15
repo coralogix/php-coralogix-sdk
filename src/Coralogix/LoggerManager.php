@@ -293,7 +293,7 @@ final class LoggerManager extends HttpSender
             Severity::INFO,
             Constants::CORALOGIX_CATEGORY,
             array(
-                "threadId" => (string)(\Thread::getCurrentThreadId())
+                "threadId" => (string)(\Thread::getCurrentThreadId()) //TODO: remove pthreads
             )
         );
     }

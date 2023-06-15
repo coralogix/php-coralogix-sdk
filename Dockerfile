@@ -18,7 +18,7 @@ RUN curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest
     chmod +x ./cc-test-reporter && \
     ./cc-test-reporter before-build
 
-# RUN composer run test
+RUN composer run test
 
 
 CMD [ "sleep", "36000" ]

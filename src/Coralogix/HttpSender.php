@@ -18,7 +18,6 @@ namespace Coralogix;
 use Coralogix\Constants;
 use Coralogix\DebugLogger;
 
-
 /**
  * Class HttpSender
  *
@@ -27,7 +26,7 @@ use Coralogix\DebugLogger;
  * @property integer $timeout timeout of HTTP request (default=30s)
  * @abstract
  */
-abstract class HttpSender extends \Thread
+abstract class HttpSender
 {
     /**
      * @var integer timeout of HTTP request (default=30s)
