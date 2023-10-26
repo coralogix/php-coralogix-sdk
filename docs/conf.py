@@ -22,3 +22,9 @@ exclude_patterns = ['_build']
 default_role = 'literal'
 pygments_style = 'sphinx'
 todo_include_todos = False
+
+rst_prolog = """
+.. warning::
+   The Coralogix PHP SDK is deprecated and not longer supported.
+   For PHP PHP 7.4+, please use the `PHP OpenTelemetry Instrumentation <https://coralogix.com/docs/php-opentelemetry-instrumentation/>`_ instead.
+"""
