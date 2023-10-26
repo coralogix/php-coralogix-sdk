@@ -1,10 +1,6 @@
 Coralogix PHP SDK
 =================
 
-.. warning::
-   The Coralogix PHP SDK is deprecated and not longer supported.
-   For PHP PHP 7.4+, please use the `PHP OpenTelemetry Instrumentation <https://coralogix.com/docs/php-opentelemetry-instrumentation/>`_ instead.
-
 .. image:: http://res.cloudinary.com/coralogix/image/upload/v1482035757/logos_yjmwij.png
     :target: https://coralogix.com/integrations/coralogix-php-integration/
     :alt: Coralogix PHP SDK
