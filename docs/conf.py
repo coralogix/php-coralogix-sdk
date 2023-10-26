@@ -25,6 +25,6 @@ todo_include_todos = False
 
 rst_prolog = """
 .. warning::
-   The Coralogix PHP SDK is deprecated and not longer supported.
+   The Coralogix PHP SDK will End of Life(EOL) Feb 1st 2024.
    For PHP PHP 7.4+, please use the `PHP OpenTelemetry Instrumentation <https://coralogix.com/docs/php-opentelemetry-instrumentation/>`_ instead.
 """
