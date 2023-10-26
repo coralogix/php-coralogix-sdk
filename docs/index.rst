@@ -1,6 +1,10 @@
 Coralogix PHP SDK
 =================
 
+.. warning::
+   The Coralogix PHP SDK will End of Life(EOL) Feb 1st 2024.
+   For PHP PHP 7.4+, please use the `PHP OpenTelemetry Instrumentation <https://coralogix.com/docs/php-opentelemetry-instrumentation/>`_ instead.
+
 .. image:: http://res.cloudinary.com/coralogix/image/upload/v1482035757/logos_yjmwij.png
     :target: https://coralogix.com/integrations/coralogix-php-integration/
     :alt: Coralogix PHP SDK
