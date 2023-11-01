@@ -27,5 +27,5 @@ rst_prolog = """
 .. warning::
    | The Coralogix PHP SDK will End of Life(EOL) Feb 1st 2024.
 
-   | For PHP 7.4+, please use the `PHP OpenTelemetry Instrumentation <https://coralogix.com/docs/php-opentelemetry-instrumentation/>`_ instead.
+   | For PHP 7.4+, please use the Coralogix's `PHP OpenTelemetry Instrumentation Documentation <https://coralogix.com/docs/php-opentelemetry-instrumentation/>`_ instead.
 """
