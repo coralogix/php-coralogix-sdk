@@ -1,5 +1,5 @@
 {
-  "name": "coralogix/logger",
+  "name": "coralogix8/logger",
   "type": "library",
   "description": "Coralogix Logger PHP SDK",
   "keywords": [
@@ -14,7 +14,7 @@
   "homepage": "https://coralogix.com/",
   "readme": "./README.md",
   "time": "2020-09-07",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "authors": [
     {
       "name": "Eldar Aliiev",
@@ -30,7 +30,7 @@
     "docs": "https://php-coralogix-sdk.readthedocs.io/en/latest/"
   },
   "require": {
-    "php": "7.*"
+    "php": ">=7.2.5"
   },
   "require-dev": {
     "phpunit/phpunit": "6.*",
