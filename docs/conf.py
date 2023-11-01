@@ -5,8 +5,8 @@ project = 'Coralogix PHP SDK'
 github_project_url = 'https://github.com/coralogix/php-coralogix-sdk'
 copyright = '2018, Coralogix Ltd.'
 author = 'Coralogix Ltd.'
-version = '1.0.1'
-release = '1.0.1'
+version = '1.0.0'
+release = '1.0.0'
 
 extensions = [
     'sphinx.ext.autodoc',
@@ -22,9 +22,6 @@ exclude_patterns = ['_build']
 default_role = 'literal'
 pygments_style = 'sphinx'
 todo_include_todos = False
-
-html_theme = "sphinx_rtd_theme"
-html_static_path = ["_static"]
 
 rst_prolog = """
 .. warning::
